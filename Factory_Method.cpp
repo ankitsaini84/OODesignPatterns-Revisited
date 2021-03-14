@@ -59,9 +59,12 @@ class AnimalFactory {
 int main() {
     AnimalFactory factory;
     IAnimal* animal;
+
     animal = factory.create(0); // create DOG
     animal->intro();
+
     animal = factory.create(2); // create HUMAN
     animal->intro();
+    
     return 0;
 }
