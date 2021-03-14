@@ -4,6 +4,8 @@ Contains C++ example code for various design patterns.
 ## Creational
 #. | Pattern
 ---|---
+1 | Factory Method
+2 | Abstract Factory
 
 ## Structural
 #. | Pattern
