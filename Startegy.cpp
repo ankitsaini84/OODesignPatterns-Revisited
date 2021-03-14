@@ -49,11 +49,15 @@ class CartoonDuck : public IDuck {
 };
 
 
-
+// Client -- Obivious to the various attributes of the various types of ducks
 int main() {
-    IDuck* duck = new RubberDuck();
+    IDuck* duck;
+
+    duck = new RubberDuck();
     duck->fly();
+
     duck = new CartoonDuck();
     duck->fly();
+
     return 0;
 }
