@@ -12,4 +12,4 @@ Contains C++ example code for different design patterns using OOP.
 ## Behavioral
 #. | Pattern
 ---|---
-1 | [Strategy](./Strategy_Pattern.cpp)
+1 | [Strategy](Startegy_Pattern.cpp)
