@@ -1,7 +1,5 @@
 // Link: https://www.modernescpp.com/index.php/thread-safe-initialization-of-data
 
-// Link: https://www.modernescpp.com/index.php/thread-safe-initialization-of-data
-
 #include <iostream>
 #include <mutex>
 
