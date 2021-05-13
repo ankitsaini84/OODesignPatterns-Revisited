@@ -1,4 +1,4 @@
-// Meyer's Singleton pattern
+// Link: https://www.modernescpp.com/index.php/thread-safe-initialization-of-data
 
 #include <iostream>
 
@@ -15,6 +15,6 @@ class Singleton {
 };
 
 int main() {
-    Singleton& s = Singleton::getInstance();            // Since, there's no copy-constructor -- We can only have the reference of the original static object.
+    Singleton& s = Singleton::getInstance();            // If getInstance() is not called, memory to 'instance' is never allocated.
     return 0;
 }
